@@ -1,7 +1,9 @@
-# 📋 Task Frontend
+[![Deploy na Vercel](https://vercel.com/button)](https://task-frontend-one-sigma.vercel.app)
 
-Interface web para gerenciamento de tarefas, construída com **Next.js**, **TypeScript** e **Tailwind CSS**.  
-Esse frontend consome uma API REST hospedada no Railway.
+# 📝 Task Frontend · Next.js + Tailwind + API REST
+
+Interface moderna e responsiva para gerenciamento de tarefas (CRUD), integrada com uma API RESTful em produção.  
+100% funcional, publicado na Vercel e conectado a banco de dados real via Railway.
 
 ---
 
@@ -21,6 +23,20 @@ Esse frontend consome uma API REST hospedada no Railway.
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - API REST em Node.js (hospedada na Railway)
+
+---
+
+## 🔗 Links rápidos
+
+- 🔥 App online: [task-frontend-one-sigma.vercel.app](https://task-frontend-one-sigma.vercel.app)
+- 🧠 API: [task-api-production-aca3.up.railway.app](https://task-api-production-aca3.up.railway.app)
+- 📁 Repositório do backend: [github.com/rafaellpaula/task-api](https://github.com/rafaellpaula/task-api)
+
+---
+
+## 🖼️ Screenshot
+
+![Interface do app](./screenshot.png)
 
 ---
 
