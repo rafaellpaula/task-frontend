@@ -55,8 +55,8 @@ export default function Home() {
       setTasks(prev => [...prev, data])
       setTitle('')
       setDescription('')
-    } catch (err) {
-      alert('Erro ao criar tarefa.')
+    } catch {
+      // vazio ou mensagem genérica
     }
   }
 
@@ -73,8 +73,8 @@ export default function Home() {
   
       // Atualiza a lista local
       setTasks(prev => prev.filter(task => task.id !== id))
-    } catch (err) {
-      alert('Erro ao excluir tarefa.')
+    } catch {
+      // vazio ou mensagem genérica
     }
   }
 
@@ -93,8 +93,8 @@ export default function Home() {
           task.id === id ? { ...task, status: 'concluida' } : task
         )
       )
-    } catch (err) {
-      alert('Erro ao concluir tarefa.')
+    } catch {
+      // vazio ou mensagem genérica
     }
   }
   
